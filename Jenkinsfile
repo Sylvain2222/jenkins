@@ -2,7 +2,7 @@ pipeline {
     agent any
     
     environment {
-	PASS = credentials('sylvainid')
+	PASS = credentials('sylvain')
     }
 	stages {
 		stage('Build') {
