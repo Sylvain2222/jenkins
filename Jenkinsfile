@@ -20,11 +20,6 @@ pipeline {
 			steps {
 				sh './jenkins/build/test.sh'
 			}
-			post {
-				always {
-					junit 'java-app./target/surefire-reports/*.xml'
-				}
-			}
 		}
 		stage('Push') {
 			steps {
