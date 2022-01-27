@@ -1,12 +1,12 @@
-package com.mycompany.app;
+*package com.mycompany.app;
 
 /**
- * Hello world!
+ * Hello world! --> modified to Hello from Pipeline to test it
  */
 public class App
 {
 
-    private final String message = "Hello World!";
+    private final String message = "Hello from Pipeline!";
 
     public App() {}
 
