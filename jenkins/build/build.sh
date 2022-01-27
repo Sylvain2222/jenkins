@@ -1,7 +1,9 @@
 #!/bin/bash
 
+
+WORKSPACE=/home/sylvain/.jenkins/workspace/pipeline-docker-maven/java-app
 #copy the new jar to the build location
-sudo cp -f java-app/target/*.jar jenkins/build
+sudo cp -f $WORKSPACE/target/*.jar jenkins/build
 
 echo "*********************** "
 echo " BUILDING DOCKER IMAGE "
