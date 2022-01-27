@@ -1,7 +1,7 @@
 #!/bin/bash
 
-
+WORKSPACE=/home/sylvain/.jenkins/workspace/pipeline-docker-maven/java-app
 echo "****** TESTING THE CODE ******"
-cd /home/sylvain/jenkinsdata/pipeline/java-app/
+cd $WORKSPACE
 mvn test
-cd /home/sylvain/jenkinsdata/pipeline/
+cd $WORKSPACE
