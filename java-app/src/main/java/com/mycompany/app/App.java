@@ -1,4 +1,4 @@
-*package com.mycompany.app;
+package com.mycompany.app;
 
 /**
  * Hello world! --> modified to Hello from Pipeline to test it
